@@ -308,7 +308,7 @@ void obj_loader(void)
 	int data_count, max_row_length = 250;
 	char tempstr[200];
 
-	objfile = fopen("yamaha.obj", "rt");
+	objfile = fopen("geom.obj", "rt");
 	if (objfile == NULL) return;
 
 	tomb_vertices_length = tomb_vertices_length = 0;
